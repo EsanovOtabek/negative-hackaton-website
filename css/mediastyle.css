@@ -1,0 +1,735 @@
+/* media styles*/
+@media (max-width: 1065px){
+	.anchs{
+  		display: none;
+  	}
+}
+@media (max-width: 979px) {
+   	nav{
+   		 padding: 0 40px 0 50px;
+  	}
+  	
+	.right-head img{
+		width: 270px;
+	}
+
+	.left-head img{
+		width: 360px;
+	}
+	.left-head{
+		width: 50%;
+		margin-top: 160px;
+		margin-left: 60px;
+	}
+	.left-head h2{
+		font-size: 36px;
+		letter-spacing: 2px;
+	}
+	.left-head p{
+		font-size: 14px;
+	}
+	.left-head-btns{
+		font-size: 14px;
+	}
+	.brends{
+	margin-bottom: 80px;
+	}
+	.brends img{
+		width: 94%;
+		margin-left: 3%;
+	}
+
+	.section1{
+		padding-top: 0px;
+	}
+	.section1-left img{
+		margin-top: 70px;
+	}
+	.section1-right{
+		width: 45%;
+		margin-right: 80px;
+	}
+	.section1-right h3{
+		font-size: 28px;
+	}
+
+	.section1-rows{
+		margin-left: 50px;
+	}
+	.section1-right .row h4{
+		font-size: 15px;
+		margin-bottom: 8px;
+
+	}
+	.section1-right .row p{
+		font-size: 14px;
+		width: 80%;
+	}
+
+	.section2{
+		padding-top: 30px;
+	}
+	.section2 .y-line{
+		margin-left: 70px;
+		width: 45%;
+		font-size: 18px;
+	}
+	.section2 .p-line{
+		width: 45%;
+		padding-left: 30px;
+		padding-right: 50px;
+		font-size: 14px;
+	}
+	.section2 .rows{
+		padding-left: 50px;
+		padding-bottom: 20px;
+	}
+	.section2 .row{
+		width: 30%;
+		margin-left: 20px;
+		padding-right: 3%;
+	}
+
+	.section2 .row img{
+		margin-bottom: 8px;
+		width: 77px;
+		margin-left: -10px;
+	}
+	.section2 .rows .row p{
+		font-size: 13px;
+	}
+
+	.section2 .cleft img{
+		width: 90%;
+		padding-top: 50px;
+
+	}
+	.section2 .cright{
+		padding-left: 50px;
+		padding-right: 10%;
+	}
+	.section2 .cright h2{
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+	.section2 .cright p{
+		font-size: 14px;
+	}
+	.section2 .cright a{
+		font-size: 14px;
+	}
+	.section3 .title{
+		font-size: 28px;
+	}
+	.section3 .p-title{
+		font-size: 14px;
+		margin: 30px 100px;
+	}
+	.section3 .rows{
+		padding-left: 5%;
+	}
+	.section3 .row-6{
+		width: 32%;
+		padding: 2%;
+	}
+	.section3 .row-6 img{
+		width: 77px;
+		border-radius: 40px;
+	}
+	.section4 .rows{
+		padding-left: 50px;
+	}
+	.section4 .rows .title{
+		width: 80%;
+		font-size: 25px;
+	}
+	.section4 .rows .p-title{
+		width: 85%;
+		font-size: 14px;
+	}
+	.section4 .row-6{
+		width: 49%;
+		padding: 3% 7% 2% 0;
+	}
+
+	.section4 .row-6 img{
+		width: 65px;
+		margin: 20px;
+		border-radius: 38px;
+	}
+	.section4 .row-6 h3{
+		font-size: 18px;
+	}
+	.section4 .rows>a{
+		font-size: 14px;
+	}
+
+	.price-section{
+		width: 96%;
+		margin-left: 2%;
+	}
+	.price-section h2{
+		margin: 20px 60px;
+	}
+	.price-section p{
+		margin: 20px 60px;  
+	}
+	.price-section span{
+		width: 250px;
+	}
+	.cards .card{
+		width: 43%;
+		margin: 15px
+	}
+	.card h2{
+		font-size: 40px;
+	}
+	.cbody{
+		line-height: 30px;
+	}
+}
+
+
+
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 120vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 25px 0;
+  }
+  .anchs{
+  	display: block;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 757px) {
+	.head{
+		height: 160vh;
+	}
+	.left-head{
+		margin: 0;
+		width: 100%;
+		padding-top: 150px;
+		padding-left: 50px;
+	}
+	.left-head img{
+		width: 420px;
+		margin-left: 0;
+	}
+	.left-head h2{
+		margin-left: 50px;
+	}
+	.left-head p{
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+	.left-head-btns{
+		margin-left: 50px;
+		font-size: 15px;
+	}
+	.anch2{
+		padding: 10px;
+	}
+	.anch1{
+		padding: 10px;
+	}
+	.right-head{
+		float: right;
+		width: 75%;
+	}
+	.right-head img{
+		margin-top: 0px;
+		width: 70%;
+	}
+
+	.brends{
+		height: 160px;
+		margin-bottom: 80px;
+	}
+	.brends img{
+		width: 100%;
+		margin: 0;
+	}
+	.section1-left{
+		width: 100%;
+	}
+	.section1-left img{
+		width: 90%;
+		margin-left: 3%;
+	}
+	.section1-right{
+		width: 100%;
+		padding-left: 10%;
+		float: left;
+		margin: 0;
+	}
+	.section1-right h3{
+		font-size: 32px;
+		margin: 0;
+	}
+	.section1-right p{
+		margin: 0;
+		margin-top: 25px;
+		width: 85%;
+		
+	}
+	.section1-rows{
+		margin: 0;
+		margin-top: 30px;
+	}
+	.section1-right .row h4{
+		margin: 0;
+		margin-bottom: -10px;
+		font-size: 17px;
+	}
+	.section1-right .row p{
+		font-size: 15px;
+		width: 70%;
+		line-height: normal;
+}
+	.section2{
+		padding-top: 40px;
+	}
+	.section2 .y-line{
+		margin: 0;
+		padding: 10px 80px;
+		width: 100%;
+		border: none;
+	}
+	.section2 .p-line{
+		width: 100%;
+		padding: 10px 80px;
+	}
+
+	.section2 .rows{
+		padding-left: 70px;
+		padding-top: 30px;
+	}
+	.section2 .row{
+		display: inline-block;
+		width: 45%;
+		margin: 0;
+		padding: 3%;
+	}
+
+	.section2 .row img{
+		width: 77px;
+	}
+	.section2 .container{
+		width: 100%;
+	}
+	.section2 .cleft{
+		width: 100%;
+		float: none;
+	}
+	.section2 .cleft img{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.section2 .cright{
+		width: 100%;
+		float: none;
+		padding: 0;
+		padding: 75px;
+	}
+
+	.section3 .title{
+		font-size: 28px;
+		text-align: center;
+	}
+	.section3 .p-title{
+		margin: 30px 80px;
+	}
+	.section3 .row-6{
+		width: 48%;
+	}
+	.section4 .rows{
+		width: 100%;
+		padding-left: 75px;
+	}
+	.section4 .rows .title{
+		width: 90%;
+	}
+	.section4 .rows .p-title{
+		width: 90%;
+	}
+	.section4 .row-6{
+		width: 45%;
+	}
+
+	.section4>img{
+		float: none;
+		margin: 0px;
+		width: 100%;
+		padding: 3%;
+	}
+
+	.price-section{
+		width: 96%;
+		margin-left: 2%;
+	}
+	.price-section span{
+		width: 250px;
+	}
+	.cards .card{
+		width: 60%;
+		margin: 25px
+	}
+
+	.map{
+		width: 100%;
+		float: none;
+	}
+	.map img{
+		width: 90%;
+	}
+	.map-content{
+		float: none;
+		width: 100%;
+		padding-left:  100px;
+	}
+	.comment{
+		width: 60%
+	}
+	.comment img{
+		padding:  5px;
+	}
+	.comment p{
+		margin-top: 8px;
+	}
+	.paginat{
+		width: 35%;
+		padding-top: 10px;
+		padding-right: 50px;
+	}
+	.section-end .left{
+		padding-left: 30px;
+		width: 100%;
+		float: none;
+	}
+	.section-end .right{
+		width: 100%;
+		float: none;
+	}
+	.section-end .right img{
+		margin:0;
+	}
+}
+
+
+
+
+
+
+
+@media (max-width: 656px) {
+
+
+	.faq{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.faqs,.faqa{
+		padding: 10px;
+	}
+	.faqs>h2,.faqa>h2{
+		font-size: 16px;
+
+	}
+	.faqs>p,.faqa>p{
+		margin: 10px 20px;
+	}
+
+	.faqa:before{
+		font-size: 20px;
+	}
+
+	.price-section{
+		width: 96%;
+		margin-left: 2%;
+	}
+	.price-section span{
+		width: 300px;
+	}
+	.cards .card{
+		width: 80%;
+	}
+	.price-section h2{
+		margin: 20px 40px 5px 40px;
+	}
+	.price-section p{
+		margin: 36px;  
+	}
+
+
+}
+
+
+
+@media (max-width: 535px) {
+
+	.menu>a{
+		display: none;
+	}
+	.left-head{
+		padding-left: 0px;
+	}
+	.left-head img{
+		width: 80%;
+	}
+	.left-head h2{
+		font-size: 30px;
+	}
+	.left-head p{
+		font-size: 14px;
+	}
+	.left-head-btns{
+		margin-left: 40px;
+	}
+
+	.right-head{
+		float: none;
+		width: 100%;
+	}
+	.right-head img{
+		margin: 0 10%;
+		width: 80%;
+	}
+
+	.brends{
+		margin: 0;
+		margin-top: 80px;
+		height: 120px;
+	}
+
+	.section1-left img{
+		width: 94%;
+	}
+	.section1-right{
+		width: 100%;
+		padding-left: 10%;
+		float: none;
+	}
+
+	.section1-right h3{
+		font-size: 30px;
+	}
+	.section1-right .row p{
+		width: 80%;
+	}
+	.section2 .y-line{
+		padding: 10px 40px 10px 60px;
+	}
+	.section2 .p-line{
+		padding: 10px 40px 10px 60px;
+	}
+
+	.section2 .rows{
+		padding-left: 40px;
+	}
+	.section2 .row{
+		width: 90%;
+		padding: 5%;
+	}
+
+	.section3 .p-title{
+		margin: 20px 40px;
+	}
+	.section3 .row-6{
+		margin: 0;
+		width: 86%;
+		margin-left: 6%;
+	}
+	.section3 .row-6 p{
+		text-align: justify;
+	}
+
+	.section4 .rows{
+		padding-left: 60px;
+	}
+	.section4 .row-6{
+		width: 90%;
+	}
+	.section4 .rows .title{
+		text-align: center;
+	}
+
+
+	.map img{
+		width: 100%;
+	}
+	.map-content{
+		padding-left:  50px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #888;
+	}
+	.comment{
+		width: 100%;
+		float: none;
+	}
+	.paginat{
+		width: 100%;
+		padding-left:30%;
+		float: none;
+
+	}
+	.comment img{
+		width: 80px;
+	}
+	.map-content h2{
+		padding-right: 50px;
+	}
+	.map-content p{
+		padding-right: 60px;
+	}
+	.map-content h3{
+		padding-right: 50px;
+	}
+	footer ul li{
+		display: block;
+		line-height: 16px;
+	}
+}
+
+
+
+
+
+
+
+@media (max-width: 434px) {
+	.left-head h2{
+		font-size: 24px;
+	}
+	.section1-right h3{
+		padding-right: 40px;
+	}
+
+
+	.section1-right .row p{
+		width: 90%;
+	}
+
+	.section1 .row-icon img{
+		margin-top: 25px;
+		margin-right: 12px;
+		width: 75px;
+
+	}
+	.section1 .row-icon{
+		float: none;
+		width: 100%
+	}
+		.section1-right h3{
+		font-size: 30px;
+	}
+	.section1-right .row p{
+		width: 80%;
+	}
+	.section2 .y-line{
+		padding: 10px 40px 10px 40px;
+	}
+	.section2 .p-line{
+		padding: 10px 40px 10px 40px;
+	}
+
+	.section2 .rows{
+		padding-left: 20px;
+	}
+	.section2 .cleft img{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.section2 .cright{
+		width: 100%;
+		float: none;
+		padding: 0;
+		padding: 40px;
+	}
+
+	.price-section{
+		width: 100%;
+		margin: 0;
+	}
+	.price-section span{
+		margin: 15px 0 0 -15px;
+	}
+	.cards .card{
+		width: 100%;
+		margin: 20px 0;
+	}
+	.price-section h2{
+		margin: 15px 0px;
+	}
+	.price-section p{
+		margin: 15px 0px;  
+	}
+	.price-section{
+		padding:  50px 30px 40px 30px;
+	}
+	.faq{
+		width: 96%;
+		margin-left: 2%;
+	}
+	.faqs>h2,.faqa>h2{
+		font-size: 14px;
+	}
+	.faqs,.faqa{
+		padding: 20px;
+	}
+	.faqs>p,.faqa>p{
+		font-size: 12px;
+	}
+
+	.faqa:before,.faqs:before{
+		font-size: 16px;
+	}
+}
